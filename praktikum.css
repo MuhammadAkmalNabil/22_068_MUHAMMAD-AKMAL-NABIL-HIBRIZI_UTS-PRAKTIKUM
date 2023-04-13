@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.nav-link{
+    font-weight: normal;
+}
+.container span {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.container li span{
+    font-family: revert;
+    font-size:medium;
+    /* penganturan scroll di menu */
+    margin-right: 35rem;
+    
+}
+
+.offcanvas-body{
+    overflow: hidden;
+}
+.offcanvas-header h5{
+    font-weight: bold;
+}
+
+.container h1{
+    font-family:revert;
+    font-weight: bold;
+}
+
+/* tombol logout */
+.offcanvas-body button{
+    position: absolute;
+    bottom: 15px;
+    width: 98%;
+    right: 10px;
+    font-weight: bold;
+    left: 5px;
+    text-align: center;
+}
+/* end logout */
